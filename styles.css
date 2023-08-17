@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Krub:wght@200&family=Urbanist:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Krub", sans-serif;
+  font-family: "Urbanist", sans-serif;
+}
+
+nav {
+    height: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.content-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.blog-post {
+  border-radius: 5px;
+  background-color: rgb(235, 235, 235);
+  padding: 12px 12px;
+  width: 200px;
+}
+
+.panel-container {
+  display: flex;
+  padding: 12px 12px;
+  justify-content: space-between;
+}
+
+.blue {
+    color: #34C0E6;
+}
+
+.landing-text {
+    padding: 0 12px;
+    margin-bottom: 16px;
+}
+
+.link-bar {
+    padding: 12px 32px;
+}
+
+.link {
+    color: #34C0E6;
+    padding: 4px;
+}
+
+.link-button {
+    border: none;
+    background-color: #34C0E6;
+    border-radius: 4px;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+
+.nav-text {
+    padding: 12px 40px;
+    font-size: 40px;
+}
+
+.follow-button {
+    padding-bottom: 12px;
+    margin-top: 8px;
+}
+
+.subscribe {
+    color: #34C0E6;
+    background-color: white;
+    border: solid #34C0E6 2px;
+}
+
+.landing-content {
+    padding: 16px;
+}
